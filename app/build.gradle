@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     buildFeatures {
         viewBinding = true
@@ -13,7 +13,8 @@ android {
     defaultConfig {
         applicationId "com.gorkemersizer.additioncalculator"
         minSdk 21
-        targetSdk 32
+        //noinspection EditedTargetSdkVersion
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
